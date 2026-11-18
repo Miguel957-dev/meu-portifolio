@@ -1,0 +1,8 @@
+# Arquivos que não devem ir para o site público
+admin.html
+*.pdf
+node_modules
+package.json
+package-lock.json
+.gitattributes
+.gitignore
