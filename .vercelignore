@@ -6,3 +6,5 @@ package.json
 package-lock.json
 .gitattributes
 .gitignore
+tailwind.config.js
+tailwind.input.css

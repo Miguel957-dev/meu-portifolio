@@ -11,31 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
-  <!-- Tailwind CSS via CDN (ideal para desenvolvimento; para produção, considere o build com Tailwind CLI) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            mono: ['"JetBrains Mono"', 'monospace'],
-          },
-          colors: {
-            // Azul-engenharia discreto, usado em detalhes e botões
-            eng: {
-              50: '#eef4fb',
-              100: '#d6e4f5',
-              500: '#2563a8',
-              600: '#1d4f8a',
-              700: '#173f6e',
-              900: '#0c223d',
-            },
-          },
-        },
-      },
-    };
-  </script>
+  <!-- Tailwind CSS gerado com "npm run build:css" (não edite assets/site.css à mão) -->
+  <link rel="stylesheet" href="assets/site.css" />
 
   <!-- Google <model-viewer>: visualizador de modelos 3D (.glb / .gltf) -->
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
